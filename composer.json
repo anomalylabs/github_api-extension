@@ -1,0 +1,22 @@
+{
+    "name": "anomaly/github_api-extension",
+    "type": "streams-addon",
+    "description": "Easily integrate GitHub APIs into your Streams Platform projects.",
+    "authors": [
+        {
+            "name": "AnomalyLabs",
+            "email": "hello@anomaly.is"
+        }
+    ],
+    "require": {
+        "knplabs/github-api": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\GithubApiExtension\\": "src/"
+        },
+        "psr-0": {
+            "Github\\": "vendor/knplabs/github/ap-/lib/"
+        }
+    }
+}
